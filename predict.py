@@ -71,6 +71,10 @@ def segmentTumor(tumorPath, contourAlpha, contourBeta, contourGamma ):
 
 
 basePathToImage= "static/uploads"
+dir="static/uploads"
+for file in os.listdir(dir):
+    os.remove(os.path.join(dir,file))
+    
 
 @app.route("/")
 def uploader():
