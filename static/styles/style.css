@@ -1,0 +1,71 @@
+body {
+  font-family: Comic Sans MS;
+  padding: 0px;
+}
+
+.header {
+  padding: 5px;
+  background: black;
+  color:white;
+}
+
+
+.footer {
+  text-align: center;
+  background: black;
+  color:white;
+}
+
+.responsive {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+	
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.mitem {
+  float: left;
+  text-align:left;
+  text-color:black;
+}
+
+.mitem a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+.mitem a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.logo{
+  width: 55px ;
+  height: 55px ;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-top: 2px;
+}
