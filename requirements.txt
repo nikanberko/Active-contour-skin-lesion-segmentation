@@ -4,5 +4,5 @@ matplotlib==3.5.1
 numpy==1.22.2
 opencv_python==4.5.5.62
 scikit_image==0.19.2
-tensorflow
+tensorflow-cpu==2.1.0
 Werkzeug==2.0.3
